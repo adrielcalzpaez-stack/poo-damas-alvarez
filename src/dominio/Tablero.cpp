@@ -28,7 +28,7 @@ void Tablero::inicializar() {
         for (int j = 0; j < 8; j++) {
             if ((i + j) % 2 != 0) {
                 cuadricula[i][j] = new PiezaNormal(NEGRO, i, j);
-            }
+            }https://github.com/marlon181222/poo-damas-alvarez/pull/1/conflict?name=src%252Fdominio%252FTablero.cpp&base_oid=aecd510534c9119713bb3d9033d49c0712cf79de&head_oid=9e5803c22d433efff43273f9cf996c83188bc88b
         }
     }
 
@@ -48,7 +48,7 @@ Pieza* Tablero::getPieza(int fila, int columna) const {
 void Tablero::setPieza(int fila, int columna, Pieza* pieza) {
     cuadricula[fila][columna] = pieza;
 }
-
+https://github.com/marlon181222/poo-damas-alvarez/pull/1/conflict?name=src%252Fdominio%252FTablero.cpp&base_oid=aecd510534c9119713bb3d9033d49c0712cf79de&head_oid=9e5803c22d433efff43273f9cf996c83188bc88b
 void Tablero::moverPieza(int filaOrigen, int columnaOrigen, int filaDestino, int columnaDestino) {
     cuadricula[filaDestino][columnaDestino] = cuadricula[filaOrigen][columnaOrigen];
     cuadricula[filaOrigen][columnaOrigen] = NULL;
